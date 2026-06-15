@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const basePath = process.env.NODE_ENV === "production" ? "https://github.com/evaniel7/gitfolio" : "";
+const basePath = process.env.NODE_ENV === "production" ? "evaniel7/gitfolio" : "";
 
 export default function Home() {
   return (
