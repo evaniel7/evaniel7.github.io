@@ -33,10 +33,11 @@ export default function Home() {
         {/* Hero Section */}
         <section className="py-20 md:py-32 space-y-8 relative">
           <div className="space-y-2">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-cyan-500/30 bg-cyan-950/20 text-cyan-400 text-xs font-bold tracking-widest uppercase animate-pulse">
+            {/*<div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-cyan-500/30 bg-cyan-950/20 text-cyan-400 text-xs font-bold tracking-widest uppercase animate-pulse">
               <span className="w-2 h-2 rounded-full bg-cyan-400 shadow-[0_0_10px_rgba(34,211,238,1)]" />
               READY TO LAUNCH
             </div>
+            */}
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white leading-[1.1] drop-shadow-[0_0_15px_rgba(34,211,238,0.3)]">
               EVAN HARNAK'S <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-purple-500 to-cyan-500 animate-gradient-x">FANCY SHMANCY</span> <br />
@@ -171,12 +172,12 @@ export default function Home() {
               I look forward to hearing from you!
             </p>
             <div className="flex flex-col items-center gap-6">
-              <a 
+              {/*<a 
                 href="https://github.com/ladykerr/gfbs3-portfolio-demo" 
                 className="px-10 py-4 bg-fuchsia-600 text-white font-bold tracking-widest uppercase text-sm hover:bg-fuchsia-500 transition-all hover:shadow-[0_0_30px_rgba(232,121,249,0.6)] hover:scale-105 duration-300 clip-path-polygon"
               >
                 FORK ON GITHUB
-              </a>
+              </a>*/}
               <div className="flex items-center gap-8 pt-4">
                 <SocialLink href="https://github.com/evaniel7" label="GITHUB" />
                 <SocialLink href="https://linkedin.com/in/evanharnak" label="LINKEDIN" />
